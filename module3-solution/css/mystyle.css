@@ -1,0 +1,21 @@
+.content {
+  margin:  20px;
+  background-color: #999999;
+  height: auto;
+  padding: 10px;
+
+  color: black;
+}
+.container-fluid > .navbar-header {
+
+  margin: 0px 20px 0px 20px;
+}
+.container-fluid > .navbar-header > .navbar-brand{
+  font-size: 30px;
+
+}
+@media (max-width: 767px) {
+  .content {
+    margin: 40px;
+  }
+}
